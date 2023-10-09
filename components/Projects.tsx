@@ -95,7 +95,7 @@ export default function Projects({}: Props) {
             snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
                 {projects.map((project, i) => (
                     <div className=' w-screen flex-shrink-0 snap-center flex flex-col 
-                    space-y-4 items-center justify-center p-20 md:p-44 h-screen'>
+                    space-y-4 items-center justify-center p-20 md:p-44 h-screen' key={i}>
                         <a href={project.url} target='_blank'>
                         <motion.img 
                         initial={{
@@ -119,11 +119,11 @@ export default function Projects({}: Props) {
                                    : {project.title}
                                 </h4>
 
-                                <p 
+                                <div 
                                 className='text-lg text-center md:text-left max-w-[1000px] xs:text-sm'
                                 >
                                     {project.description}
-                                </p>
+                                </div>
                                 </div>
                     </div>
                 ))}

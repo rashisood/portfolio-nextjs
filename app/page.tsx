@@ -14,7 +14,7 @@ export default function Home() {
      snap-y snap-mandatory overflow-y-scroll overflow-x-hidden
       z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
       {/* <Head> */}
-        <title>Rashi's Portfolio</title>
+        <title>Rashi&apos;s Portfolio</title>
       {/* </Head> */}
       
       <Header/>
@@ -45,7 +45,7 @@ export default function Home() {
       <Link href="#hero">
         <footer className='sticky bottom-5 w-full cursor-pointer'>
           <div className='flex items-center justify-center'>
-            <img
+            <Image
               className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
               src="https://i.postimg.cc/gk4sNdVm/1501-CE3-A-4-C16-46-A0-81-A3-F37-A74-C1-E328-1-201-a.jpg"
               alt="Profile Picture" 

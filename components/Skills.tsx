@@ -44,8 +44,8 @@ export default function Skills({}: Props) {
         <div className=' absolute top-56 grid grid-cols-5 gap-5 xs:grid-cols-3'>
             {
               skills.map((skill,idx)=>(
-              <div >
-                <Skill key={idx}
+              <div  key={idx}>
+                <Skill
                 link={skill.url}
                 n={skill.name}
                 />

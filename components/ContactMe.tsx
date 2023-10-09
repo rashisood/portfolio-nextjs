@@ -32,7 +32,7 @@ export default function ContactMe({}: Props) {
         <div className='flex flex-col space-y-10 xs:space-y-8 xxs:space-y-2 xxs:-mt-[90px] xs:-mt-[150px]'>
             <h4 className='text-4xl font-semibold text-center xxs:mt-0  xs:text-base xs:mt-[250px] xl:mt-[50px]'>
                 I have got just what you need. {" "}
-                <span className='decoration-[#F7AB0A]/50 underline'>Let's Talk.</span>
+                <span className='decoration-[#F7AB0A]/50 underline'>Let&apos;s Talk.</span>
             </h4>
 
             <div className='space-y-10 xs:space-y-5'>

@@ -27,7 +27,7 @@ export default function Skill({link,n}: Props) {
         />
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in group-hover:bg-white h-24 w-24 md:w-28 md:h-28 xl:w-30 xl:h-30 rounded-full z-0 xs:hidden'>
             <div className='flex items-center justify-center h-full'>
-                <p className='text-xl font-bold text-black opacity-100'>{n}</p>
+                <div className='text-xl font-bold text-black opacity-100'>{n}</div>
             </div>
         </div>
     </div>
