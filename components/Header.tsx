@@ -68,7 +68,7 @@ export default function Header({}: Props) {
         }
         className='flex flex-row items-center text-gray-300 cursor-pointer gap-12'>
              <a className='flex uppercase items-center md:inline-flex text-sm text-gray-400' href='/assets/Rashi Sood.pdf' download>
-                DOWNLOAD CV </a>
+                <button>DOWNLOAD CV </button></a>
             <div className='flex items-center'>
             <SocialIcon
             className='cursor-pointer'
