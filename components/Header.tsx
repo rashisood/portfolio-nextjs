@@ -3,8 +3,6 @@ import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import Image from 'next/image'
-
 
 type Props = {}
 
@@ -68,21 +66,25 @@ export default function Header({}: Props) {
                 duration:1.5,
             }
         }
-        className='flex flex-row items-center text-gray-300 cursor-pointer gap-5'>
-             <a className='flex uppercase items-center md:inline-flex text-sm text-gray-400' href='/assets/Rashi Sood.pdf' download> <Image width="32" height="32" src="https://img.icons8.com/pastel-glyph/64/737373/download--v1.png" alt="download--v1"/> Download CV </a>
-            <Link href='#contact'>
-            <div><SocialIcon
+        className='flex flex-row items-center text-gray-300 cursor-pointer gap-12'>
+             <a className='flex uppercase items-center md:inline-flex text-sm text-gray-400' href='/assets/Rashi Sood.pdf' download>
+                DOWNLOAD CV </a>
+            <div className='flex items-center'>
+            <SocialIcon
             className='cursor-pointer'
             network='email'
             fgColor='grey'
             bgColor='transparent'
             href='mailto:rashisood6175@gmail.com'
             />
+            <Link href='#contact'>
             <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
                 Get in Touch
             </p>
+            </Link>
             </div>
-        </Link>
+            
+       
         </motion.div>
     </header>
   )

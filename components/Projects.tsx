@@ -11,7 +11,7 @@ import weather from '../public/weather.jpeg'
 import testimonial from '../public/testimonial.jpeg'
 import shopping from '../public/shopping.jpeg'
 import chair from '../public/chair.jpeg'
-
+import Link from 'next/link';
 
 
 type Props = {}
@@ -96,7 +96,8 @@ export default function Projects({}: Props) {
                 {projects.map((project, i) => (
                     <div className=' w-screen flex-shrink-0 snap-center flex flex-col 
                     space-y-4 items-center justify-center p-20 md:p-44 h-screen' key={i}>
-                        <a href={project.url} target='_blank'>
+                        
+                        <Link href={project.url} target='_blank'>
                         <motion.img 
                         initial={{
                             y:-300,
@@ -110,7 +111,8 @@ export default function Projects({}: Props) {
                         className='h-80 w-100 mt-[20px] xs:h-44 xs:w-88'
                         src={project.img} alt="R" 
                         />
-                        </a>
+                        </Link>
+                        
                        
 
                         <div className='space-y-10 px-0 md:px-10 max-w-6xl xs:space-y-5'>

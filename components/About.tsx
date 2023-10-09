@@ -1,6 +1,8 @@
 "use client"
 import React from 'react'
 import { motion } from 'framer-motion'
+import rashi from '../public/rashi.jpg'
+
 
 type Props = {}
 
@@ -28,8 +30,10 @@ export default function About({}: Props) {
             opacity:1,
         }}
         viewport={{once:true}}
-        src='https://i.postimg.cc/2jvpR5d7/CC1-B25-B6-E950-431-C-804-D-95-B09-D091498-1-201-a.jpg'
-        className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
+        src={'rashi.jpg'}
+        width={56}
+        height={56}
+        className='-mb-20 md:mb-0 flex-shrink-0 rounded-full object-cover
         xs:w-40 xs:h-40 xs:mt-[50px]
         md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[400px]'
         /> 

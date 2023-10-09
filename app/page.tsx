@@ -7,6 +7,8 @@ import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import ContactMe from '@/components/ContactMe'
 import Link from 'next/link'
+import rashi from '../public/rashi.jpg'
+
 
 export default function Home() {
   return (
@@ -47,7 +49,7 @@ export default function Home() {
           <div className='flex items-center justify-center'>
             <Image
               className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
-              src="https://i.postimg.cc/gk4sNdVm/1501-CE3-A-4-C16-46-A0-81-A3-F37-A74-C1-E328-1-201-a.jpg"
+              src={rashi}
               alt="Profile Picture" 
               width={40}
               height={40}
