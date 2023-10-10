@@ -88,7 +88,7 @@ export default function Projects({}: Props) {
         <h3 className='absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl xs:text-md xs:tracking-[10px]'>
             Projects</h3>
             <h3 className='absolute top-28  uppercase tracking-[3px] text-gray-500 text-sm xs:text-center'>
-            Click on the image to redirect to the project
+            Scroll horizontally for more and Click on the image to redirect to the project
         </h3>
 
             <div className='relative w-full top-8 flex overflow-x-scroll overflow-y-hidden snap-x 
@@ -109,7 +109,7 @@ export default function Projects({}: Props) {
                         viewport={{once:true}}
 
                         className='h-80 w-100 mt-[20px] xs:h-44 xs:w-88'
-                        src={project.img} alt="R" 
+                        src={project.img} alt="PROJECT" 
                         />
                         </Link>
                         

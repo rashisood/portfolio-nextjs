@@ -31,20 +31,20 @@ export default function Skills({}: Props) {
     initial={{opacity:0}}
     whileInView={{opacity:1}}
     transition={{duration:1.5}}
-    className='relative flex flex-col text-center xs:max-w-[80vw] md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center '
+    className='relative flex flex-col text-center md:text-left max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center '
     >
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
             Skills
         </h3>
 
-        <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm xs:hidden'>
+        <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>
             Hover over a skill to know more
         </h3>
 
-        <div className=' absolute top-56 grid grid-cols-5 gap-5 xs:grid-cols-3'>
+        <div className='absolute top-56 grid grid-cols-3 xl:grid-cols-5 gap-8  '>
             {
               skills.map((skill,idx)=>(
-              <div  key={idx}>
+              <div className='' key={idx}>
                 <Skill
                 link={skill.url}
                 n={skill.name}
