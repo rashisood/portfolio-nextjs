@@ -42,7 +42,9 @@ export default function About({}: Props) {
             <h4 className='text-4xl font-semibold xs:text-2xl'>Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> background</h4>
             <p className='text-base xs:text-sm'>
                Hi, My name is Rashi Sood, a student pursuing Masters In Computer Applications from Panjab University, Chandigarh. 
-               I have solid experience in Front-end Web Development and am well acquainted with Technologies like- MERN Stack, JavaScript, Tailwind, Reactjs, Redux, Nextjs, PHP, C/C++, java, python, SQL, problem solving using Data Structures and continuosly expanding my knowledge.</div>
+               I have solid experience in Front-end Web Development and am well acquainted with Technologies like- MERN Stack, JavaScript, Tailwind, Reactjs, Redux, Nextjs, PHP, C/C++, java, python, SQL, problem solving using Data Structures and continuosly expanding my knowledge.
+            </p>
+            </div>
     </motion.div>
   )
 }
