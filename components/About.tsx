@@ -41,9 +41,8 @@ export default function About({}: Props) {
         <div className='space-y-10 px-0 md:px-10 xs:space-y-5 mt-[20px]'>
             <h4 className='text-4xl font-semibold xs:text-2xl'>Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> background</h4>
             <p className='text-base xs:text-sm'>
-                Hi, My name is Rashi Sood, a student pursuing Bachelors In Computer Applications from Government College for Girls, Ludhiana, affiliated to Panjab University, Chandigarh. 
-                Having scored 85% in both of my college years, I am skilled at Front-end Web Development and well acquainted with Technologies like- HTML, CSS, JavaScript, Tailwind, Reactjs, Redux, Nextjs, PHP, C/C++, java, problem solving using Data Structures and continuosly expanding my knowledge.</p>
-        </div>
+               Hi, My name is Rashi Sood, a student pursuing Masters In Computer Applications from Panjab University, Chandigarh. 
+               I have solid experience in Front-end Web Development and am well acquainted with Technologies like- MERN Stack, JavaScript, Tailwind, Reactjs, Redux, Nextjs, PHP, C/C++, java, python, SQL, problem solving using Data Structures and continuosly expanding my knowledge.</div>
     </motion.div>
   )
 }
